@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(180deg, #aa81ad, #a15fa3, #5e3b70);
+    color: aliceblue;
+    font-size: 1.4rem;
+    width: 100%;
+}
+
+#first>img {
+    width: 30%;
+    padding-bottom: 1.5rem;
+
+}
+
+#first {
+    padding: 2rem;
+}
+
+#first>.title,
+#first>.name {
+    background-color: #281b42;
+    color: #b4accc;
+    width: 100%;
+    max-width: 220px;
+    padding: 0.3rem 2rem 0.3rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 3rem;
+
+}
+
+#first>.name {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 0;
+}
+
+section {
+    border-bottom: 0.2rem solid #471c49;
+}
+
+.btns {
+    border-top: 0.2rem solid #471c49;
+}
+
+.btns>button {
+    margin: 1rem 0rem 0rem 2rem;
+    width: 15%;
+    padding: 0.9rem;
+    background-color: #b4accc;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 18px;
+    border-radius: 3rem;
+    border: 0.2rem solid #a15fa3;
+}
+
+.btns>button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    color: #a15fa3;
+}
+
+#second>.video {
+    margin: 2rem;
+    border-radius: 50%;
+    max-width: 100%;
+    width: 400px;
+
+}
+
+#third>form {
+    margin: 2rem 0 1rem 0;
+}
+
+form>input {
+    padding: 0.5rem;
+    width: 15%;
+    border: 0.2rem solid #281b42;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    border: 0.2rem solid #a15fa3;
+    ;
+}
+
+#radio {
+    padding: 0;
+    width: 5%;
+    margin-top: 1rem;
+}
+
+form>input:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+footer>ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer>ul>li {
+    list-style-type: none;
+    padding: 2rem;
+    font-size: 18px;
+}
+
+footer>ul>li>a:visited {
+    color: #aa81ad;
+}
+
+@media (max-width: 75em) {
+    html {
+        font-size: 60%;
+    }
+}
