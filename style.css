@@ -9,6 +9,7 @@ body {
     color: aliceblue;
     font-size: 1.4rem;
     width: 100%;
+    color: #32012F;
 }
 
 #first>img {
@@ -96,6 +97,7 @@ form>input {
     padding: 0;
     width: 5%;
     margin-top: 1rem;
+
 }
 
 form>input:hover {
