@@ -5,7 +5,7 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: linear-gradient(180deg, #aa81ad, #a15fa3, #5e3b70);
+    background: linear-gradient(180deg, #aa81ad, #EECEB9, #EECEB9);
     color: aliceblue;
     font-size: 1.4rem;
     width: 100%;
@@ -23,14 +23,18 @@ body {
 
 #first>.title,
 #first>.name {
-    background-color: #281b42;
-    color: #b4accc;
+    background-color: #987D9A;
     width: 100%;
-    max-width: 220px;
+    max-width: 240px;
     padding: 0.3rem 2rem 0.3rem 2rem;
     margin-bottom: 1rem;
     border-radius: 3rem;
+    color: #EECEB9;
 
+}
+#first>.title{
+
+    font-weight: 600;
 }
 
 #first>.name {
@@ -51,8 +55,8 @@ section {
     margin: 1rem 0rem 0rem 2rem;
     width: 15%;
     padding: 0.9rem;
-    background-color: #b4accc;
-    color: aliceblue;
+    background-color:#F0EBE3;
+    color: #a15fa3;
     font-weight: 800;
     font-size: 18px;
     border-radius: 3rem;
@@ -85,7 +89,7 @@ form>input {
     margin-left: 2rem;
     margin-bottom: 2rem;
     border: 0.2rem solid #a15fa3;
-    ;
+    background-color:#F0EBE3;
 }
 
 #radio {
@@ -111,8 +115,14 @@ footer>ul>li {
 }
 
 footer>ul>li>a:visited {
-    color: #aa81ad;
+    color: #a15fa3;;
 }
+footer>ul>li>a:active {
+    color: #32012F;;
+}
+footer>ul>li>a:hover{
+    color: #8E3E63;
+} 
 
 @media (max-width: 75em) {
     html {
